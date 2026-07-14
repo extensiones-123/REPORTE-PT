@@ -1,0 +1,4460 @@
+{
+  "sheet": "LIBERACION",
+  "generated_at": "2026-07-14 15:09:46",
+  "date_range": {
+    "start": "2026-06-01",
+    "end": "2026-07-02"
+  },
+  "daily_totals": [
+    {
+      "date": "2026-06-01",
+      "metros": 365200.0
+    },
+    {
+      "date": "2026-06-02",
+      "metros": 113125.0
+    },
+    {
+      "date": "2026-06-03",
+      "metros": 124750.0
+    },
+    {
+      "date": "2026-06-04",
+      "metros": 91975.0
+    },
+    {
+      "date": "2026-06-05",
+      "metros": 88900.0
+    },
+    {
+      "date": "2026-06-08",
+      "metros": 181500.0
+    },
+    {
+      "date": "2026-06-09",
+      "metros": 154350.0
+    },
+    {
+      "date": "2026-06-10",
+      "metros": 168125.0
+    },
+    {
+      "date": "2026-06-11",
+      "metros": 234250.0
+    },
+    {
+      "date": "2026-06-12",
+      "metros": 247725.0
+    },
+    {
+      "date": "2026-06-15",
+      "metros": 181300.0
+    },
+    {
+      "date": "2026-06-16",
+      "metros": 111000.0
+    },
+    {
+      "date": "2026-06-17",
+      "metros": 115925.0
+    },
+    {
+      "date": "2026-06-18",
+      "metros": 154625.0
+    },
+    {
+      "date": "2026-06-19",
+      "metros": 246825.0
+    },
+    {
+      "date": "2026-06-22",
+      "metros": 90825.0
+    },
+    {
+      "date": "2026-06-23",
+      "metros": 79450.0
+    },
+    {
+      "date": "2026-06-24",
+      "metros": 54450.0
+    },
+    {
+      "date": "2026-06-25",
+      "metros": 82450.0
+    },
+    {
+      "date": "2026-06-26",
+      "metros": 82585.0
+    },
+    {
+      "date": "2026-06-29",
+      "metros": 105700.0
+    },
+    {
+      "date": "2026-06-30",
+      "metros": 62385.0
+    },
+    {
+      "date": "2026-07-01",
+      "metros": 77250.0
+    },
+    {
+      "date": "2026-07-02",
+      "metros": 100375.0
+    }
+  ],
+  "lot_totals": [
+    {
+      "lote": "2606F08",
+      "metros": 640725.0,
+      "registros": 37
+    },
+    {
+      "lote": "N/A",
+      "metros": 541450.0,
+      "registros": 83
+    },
+    {
+      "lote": "2606F11",
+      "metros": 478275.0,
+      "registros": 31
+    },
+    {
+      "lote": "2606G01",
+      "metros": 241060.0,
+      "registros": 21
+    },
+    {
+      "lote": "2606G02",
+      "metros": 179260.0,
+      "registros": 17
+    },
+    {
+      "lote": "2606H01",
+      "metros": 178500.0,
+      "registros": 27
+    },
+    {
+      "lote": "2606G03",
+      "metros": 162800.0,
+      "registros": 18
+    },
+    {
+      "lote": "2606G06",
+      "metros": 125725.0,
+      "registros": 9
+    },
+    {
+      "lote": "2606F13",
+      "metros": 120325.0,
+      "registros": 17
+    },
+    {
+      "lote": "2606F05",
+      "metros": 112275.0,
+      "registros": 19
+    },
+    {
+      "lote": "2606H02",
+      "metros": 104150.0,
+      "registros": 14
+    },
+    {
+      "lote": "2606G04",
+      "metros": 80075.0,
+      "registros": 8
+    },
+    {
+      "lote": "2606F10",
+      "metros": 59500.0,
+      "registros": 10
+    },
+    {
+      "lote": "2606G05",
+      "metros": 47350.0,
+      "registros": 9
+    },
+    {
+      "lote": "2606F02",
+      "metros": 37250.0,
+      "registros": 14
+    },
+    {
+      "lote": "2606M04",
+      "metros": 29125.0,
+      "registros": 5
+    },
+    {
+      "lote": "2606M07",
+      "metros": 25275.0,
+      "registros": 5
+    },
+    {
+      "lote": "2606M05",
+      "metros": 24650.0,
+      "registros": 8
+    },
+    {
+      "lote": "2606F04",
+      "metros": 15050.0,
+      "registros": 3
+    },
+    {
+      "lote": "2606M08",
+      "metros": 15025.0,
+      "registros": 4
+    },
+    {
+      "lote": "2606M02",
+      "metros": 14725.0,
+      "registros": 5
+    },
+    {
+      "lote": "2606M06",
+      "metros": 12725.0,
+      "registros": 3
+    },
+    {
+      "lote": "2606M09",
+      "metros": 10175.0,
+      "registros": 2
+    },
+    {
+      "lote": "2606M01",
+      "metros": 10100.0,
+      "registros": 2
+    },
+    {
+      "lote": "2606M10",
+      "metros": 9850.0,
+      "registros": 2
+    },
+    {
+      "lote": "2606M13",
+      "metros": 9500.0,
+      "registros": 2
+    },
+    {
+      "lote": "2606F06",
+      "metros": 6300.0,
+      "registros": 11
+    },
+    {
+      "lote": "2606F15",
+      "metros": 6225.0,
+      "registros": 3
+    },
+    {
+      "lote": "2606M11",
+      "metros": 4975.0,
+      "registros": 3
+    },
+    {
+      "lote": "2606M03",
+      "metros": 3100.0,
+      "registros": 2
+    },
+    {
+      "lote": "2606F07",
+      "metros": 3050.0,
+      "registros": 3
+    },
+    {
+      "lote": "2606F01",
+      "metros": 2125.0,
+      "registros": 4
+    },
+    {
+      "lote": "2606F09",
+      "metros": 1800.0,
+      "registros": 4
+    },
+    {
+      "lote": "2606F14",
+      "metros": 1350.0,
+      "registros": 4
+    },
+    {
+      "lote": "2606F03",
+      "metros": 725.0,
+      "registros": 3
+    },
+    {
+      "lote": "2606F12",
+      "metros": 375.0,
+      "registros": 2
+    },
+    {
+      "lote": "2606M12",
+      "metros": 100.0,
+      "registros": 1
+    },
+    {
+      "lote": "26060.0",
+      "metros": 0.0,
+      "registros": 1
+    }
+  ],
+  "records": [
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 40000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 40000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 18500.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X18",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 36600.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 40000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 6600.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 1400.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 4950.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 7100.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 3500.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JUAN DIEGO S, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 10000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 21900.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 17575.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 25225.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 12800.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 3675.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X18",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 2100.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X10",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 5000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 7500.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 12500.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 26125.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 19600.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 1375.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JUAN DIEGO S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 550.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 200.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 300.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-01",
+      "lote": "N/A",
+      "metros": 125.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "2606H01",
+      "metros": 12325.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "2606H01",
+      "metros": 11875.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "2606G01",
+      "metros": 5475.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "2606G01",
+      "metros": 15600.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 10675.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 10.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 2400.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 7900.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 15200.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 8100.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 2200.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 1000.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X10",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 75.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 150.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 0.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 600.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 1325.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 1425.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 150.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 550.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 200.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 1075.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X18",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 625.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 800.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 1000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 500.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 225.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 725.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 300.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 575.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V, FREDDY CH"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 600.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 0.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 275.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 300.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X10",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 475.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 525.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 50.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 150.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 3900.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-02",
+      "lote": "N/A",
+      "metros": 3800.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-03",
+      "lote": "2606G01",
+      "metros": 14900.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-03",
+      "lote": "2606H01",
+      "metros": 36150.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-03",
+      "lote": "N/A",
+      "metros": 10050.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JUAN DIEGO S, JESSICA V"
+    },
+    {
+      "date": "2026-06-03",
+      "lote": "N/A",
+      "metros": 2775.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JUAN DIEGO S, JESSICA V"
+    },
+    {
+      "date": "2026-06-03",
+      "lote": "2606F02",
+      "metros": 4875.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-03",
+      "lote": "2606F04",
+      "metros": 10100.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 10.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-03",
+      "lote": "2606H01",
+      "metros": 10225.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-03",
+      "lote": "2606F04",
+      "metros": 4875.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 10.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-03",
+      "lote": "2606G01",
+      "metros": 15425.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-03",
+      "lote": "2606H01",
+      "metros": 15375.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "N/A",
+      "metros": 1500.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JUAN DIEGO S, JESSICA V"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "N/A",
+      "metros": 1000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JUAN DIEGO S, JESSICA V"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "2606G01",
+      "metros": 30625.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "2606H01",
+      "metros": 9125.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "N/A",
+      "metros": 4375.0,
+      "producto": "MULTICONDUCTOR TC",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JUAN DIEGO S, JESSICA V"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "2606H02",
+      "metros": 15000.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "N/A",
+      "metros": 3400.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X18",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "2606M02",
+      "metros": 4000.0,
+      "producto": "MULTICONDUCTOR TC",
+      "calibre": "3X12",
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "N/A",
+      "metros": 1475.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "N/A",
+      "metros": 625.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "2606M01",
+      "metros": 8050.0,
+      "producto": "MULTICONDUCTOR TC",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "N/A",
+      "metros": 1925.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "N/A",
+      "metros": 1725.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "4X12",
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "N/A",
+      "metros": 200.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "2606H02",
+      "metros": 8125.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "N/A",
+      "metros": 25.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "N/A",
+      "metros": 25.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-04",
+      "lote": "N/A",
+      "metros": 775.0,
+      "producto": "MULTICONDUCTOR TC",
+      "calibre": "3X12",
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z"
+    },
+    {
+      "date": "2026-06-05",
+      "lote": "2606G01",
+      "metros": 14875.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-05",
+      "lote": "2606G01",
+      "metros": 15650.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-05",
+      "lote": "2606H02",
+      "metros": 13850.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-05",
+      "lote": "2606H02",
+      "metros": 14475.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-05",
+      "lote": "2606H02",
+      "metros": 14850.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-05",
+      "lote": "2606M02",
+      "metros": 2200.0,
+      "producto": "MULTICONDUCTOR TC",
+      "calibre": "3X12",
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JUAN DIEGO S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-05",
+      "lote": "2606M01",
+      "metros": 2050.0,
+      "producto": "MULTICONDUCTOR TC",
+      "calibre": "2X12",
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z, FREDDY CH"
+    },
+    {
+      "date": "2026-06-05",
+      "lote": "2606M02",
+      "metros": 4450.0,
+      "producto": "MULTICONDUCTOR TC",
+      "calibre": "3X12",
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-05",
+      "lote": "2606M02",
+      "metros": 4000.0,
+      "producto": "MULTICONDUCTOR TC",
+      "calibre": "3X12",
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z, FREDDY CH"
+    },
+    {
+      "date": "2026-06-05",
+      "lote": "2606M03",
+      "metros": 2500.0,
+      "producto": "MULTICONDUCTOR TC",
+      "calibre": "3X10",
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606F05",
+      "metros": 12000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606F05",
+      "metros": 5000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606H02",
+      "metros": 14500.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606H02",
+      "metros": 6500.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z, FREDDY CH"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606F08",
+      "metros": 13225.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606F08",
+      "metros": 40000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606F08",
+      "metros": 11775.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606G01",
+      "metros": 15100.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606G01",
+      "metros": 14900.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606F02",
+      "metros": 6500.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606F02",
+      "metros": 8000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606F08",
+      "metros": 22225.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606F02",
+      "metros": 5000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, DIEGO Z"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606F05",
+      "metros": 100.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606H01",
+      "metros": 1000.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, DIEGO Z"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606H01",
+      "metros": 5450.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, DIEGO Z"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606H01",
+      "metros": 150.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606H02",
+      "metros": 25.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-08",
+      "lote": "2606H02",
+      "metros": 50.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F08",
+      "metros": 22275.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F08",
+      "metros": 32000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F08",
+      "metros": 50000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F08",
+      "metros": 15900.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F08",
+      "metros": 10350.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F05",
+      "metros": 2000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606G01",
+      "metros": 2900.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606H02",
+      "metros": 14575.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "DIEGO Z, JESSICA V"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606H02",
+      "metros": 1375.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606H01",
+      "metros": 325.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606H02",
+      "metros": 275.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606H02",
+      "metros": 175.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JESSICA V"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F02",
+      "metros": 125.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F02",
+      "metros": 125.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F02",
+      "metros": 75.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F03",
+      "metros": 100.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F03",
+      "metros": 100.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F05",
+      "metros": 675.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F04",
+      "metros": 75.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F01",
+      "metros": 325.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F01",
+      "metros": 425.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-09",
+      "lote": "2606F06",
+      "metros": 175.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-10",
+      "lote": "2606F08",
+      "metros": 24275.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-10",
+      "lote": "2606F08",
+      "metros": 18075.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-10",
+      "lote": "2606F08",
+      "metros": 32000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-10",
+      "lote": "2606F08",
+      "metros": 33000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-10",
+      "lote": "2606F08",
+      "metros": 2575.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-10",
+      "lote": "2606F05",
+      "metros": 1000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-10",
+      "lote": "2606G02",
+      "metros": 12300.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-10",
+      "lote": "2606G02",
+      "metros": 17400.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-10",
+      "lote": "2606M04",
+      "metros": 7200.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-10",
+      "lote": "2606M04",
+      "metros": 7300.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-10",
+      "lote": "2606M04",
+      "metros": 3000.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z"
+    },
+    {
+      "date": "2026-06-10",
+      "lote": "2606F05",
+      "metros": 10000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JESSICA V, FREDDY CH"
+    },
+    {
+      "date": "2026-06-11",
+      "lote": "2606F08",
+      "metros": 8125.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-11",
+      "lote": "2606F08",
+      "metros": 40000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-11",
+      "lote": "2606F08",
+      "metros": 40000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-11",
+      "lote": "2606F08",
+      "metros": 26150.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-11",
+      "lote": "2606F08",
+      "metros": 12000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-11",
+      "lote": "2606F08",
+      "metros": 29925.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-11",
+      "lote": "2606F08",
+      "metros": 23900.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-11",
+      "lote": "2606M04",
+      "metros": 11125.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-11",
+      "lote": "2606G02",
+      "metros": 17000.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-11",
+      "lote": "2606G02",
+      "metros": 18500.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-11",
+      "lote": "2606M06",
+      "metros": 7525.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, DIEGO Z"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606F11",
+      "metros": 21600.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606F08",
+      "metros": 36000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606F08",
+      "metros": 32200.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606F08",
+      "metros": 19975.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606F10",
+      "metros": 10400.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 16.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606F10",
+      "metros": 5000.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 16.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606F10",
+      "metros": 8600.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 16.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606F10",
+      "metros": 12400.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 16.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606F08",
+      "metros": 24700.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606G01",
+      "metros": 20500.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606G02",
+      "metros": 6750.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606G03",
+      "metros": 7600.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606G03",
+      "metros": 15000.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606M07",
+      "metros": 7300.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606M07",
+      "metros": 9600.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X14",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, DIEGO Z"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606M07",
+      "metros": 5900.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, DIEGO Z"
+    },
+    {
+      "date": "2026-06-12",
+      "lote": "2606M06",
+      "metros": 4200.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X16",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-15",
+      "lote": "2606F11",
+      "metros": 23800.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-15",
+      "lote": "2606F11",
+      "metros": 26700.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-15",
+      "lote": "2606F11",
+      "metros": 21200.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-15",
+      "lote": "2606F11",
+      "metros": 11400.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-15",
+      "lote": "2606F11",
+      "metros": 30000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-15",
+      "lote": "2606F10",
+      "metros": 7475.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 16.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-15",
+      "lote": "2606F10",
+      "metros": 14800.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 16.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-15",
+      "lote": "2606G03",
+      "metros": 14000.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-15",
+      "lote": "2606G03",
+      "metros": 7800.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-15",
+      "lote": "2606G03",
+      "metros": 14675.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-15",
+      "lote": "2606M05",
+      "metros": 3450.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JUAN DIEGO S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-15",
+      "lote": "2606M05",
+      "metros": 6000.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F03",
+      "metros": 525.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F08",
+      "metros": 375.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F02",
+      "metros": 175.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F02",
+      "metros": 650.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606H02",
+      "metros": 375.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F05",
+      "metros": 125.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F08",
+      "metros": 750.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F06",
+      "metros": 475.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F08",
+      "metros": 275.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F08",
+      "metros": 75.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F10",
+      "metros": 250.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 16.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F10",
+      "metros": 50.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 16.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F10",
+      "metros": 125.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 16.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F08",
+      "metros": 200.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F05",
+      "metros": 375.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F06",
+      "metros": 425.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F08",
+      "metros": 1700.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F06",
+      "metros": 400.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F01",
+      "metros": 800.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F08",
+      "metros": 150.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F09",
+      "metros": 25.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606G01",
+      "metros": 2850.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606G02",
+      "metros": 750.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606G03",
+      "metros": 100.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606G03",
+      "metros": 4600.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606G03",
+      "metros": 13200.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606G03",
+      "metros": 9625.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606G04",
+      "metros": 16275.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X20",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F05",
+      "metros": 16500.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JUAN DIEGO S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F05",
+      "metros": 14500.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F08",
+      "metros": 1000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F08",
+      "metros": 5000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JUAN DIEGO S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F08",
+      "metros": 6000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JUAN DIEGO S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606F08",
+      "metros": 4000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JUAN DIEGO S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606M06",
+      "metros": 1000.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X16",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JUAN DIEGO S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606M03",
+      "metros": 600.0,
+      "producto": "MULTICONDUCTOR TC",
+      "calibre": "3X10",
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, DIEGO Z"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606M07",
+      "metros": 1200.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, DIEGO Z"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606M04",
+      "metros": 500.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, DIEGO Z"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606M02",
+      "metros": 75.0,
+      "producto": "MULTICONDUCTOR TC",
+      "calibre": "3X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, DIEGO Z"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606M05",
+      "metros": 2925.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JUAN DIEGO S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-16",
+      "lote": "2606M05",
+      "metros": 2000.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z"
+    },
+    {
+      "date": "2026-06-17",
+      "lote": "2606F11",
+      "metros": 15100.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-17",
+      "lote": "2606F05",
+      "metros": 24000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-17",
+      "lote": "2606F13",
+      "metros": 6900.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-17",
+      "lote": "2606G03",
+      "metros": 13300.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-17",
+      "lote": "2606G03",
+      "metros": 12125.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-17",
+      "lote": "2606G03",
+      "metros": 7325.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-17",
+      "lote": "2606G04",
+      "metros": 9475.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X20",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-17",
+      "lote": "2606G04",
+      "metros": 14800.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X20",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-17",
+      "lote": "2606M08",
+      "metros": 6500.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-17",
+      "lote": "2606M08",
+      "metros": 6400.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-18",
+      "lote": "2606G03",
+      "metros": 9500.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-18",
+      "lote": "2606G03",
+      "metros": 8650.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-18",
+      "lote": "2606F05",
+      "metros": 7000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-18",
+      "lote": "2606F11",
+      "metros": 41100.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-18",
+      "lote": "2606F11",
+      "metros": 40000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-18",
+      "lote": "2606F13",
+      "metros": 23550.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-18",
+      "lote": "2606F13",
+      "metros": 15550.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-18",
+      "lote": "2606M09",
+      "metros": 5775.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X10",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-18",
+      "lote": "2606F05",
+      "metros": 2050.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-18",
+      "lote": "2606F05",
+      "metros": 400.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-18",
+      "lote": "2606F01",
+      "metros": 575.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-18",
+      "lote": "2606F11",
+      "metros": 425.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-18",
+      "lote": "2606F11",
+      "metros": 50.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606F11",
+      "metros": 13000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606F11",
+      "metros": 35000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606F11",
+      "metros": 36000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606F11",
+      "metros": 12300.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606F11",
+      "metros": 35000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606F11",
+      "metros": 20000.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606F11",
+      "metros": 32475.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606F11",
+      "metros": 8875.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606G03",
+      "metros": 5175.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606G03",
+      "metros": 15000.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606G03",
+      "metros": 5000.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606G02",
+      "metros": 14000.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, FREDDY CH"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606G01",
+      "metros": 1925.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606M12",
+      "metros": 100.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-19",
+      "lote": "2606F13",
+      "metros": 12975.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-22",
+      "lote": "2606F13",
+      "metros": 9625.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-22",
+      "lote": "2606F13",
+      "metros": 20200.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-22",
+      "lote": "2606F13",
+      "metros": 20375.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-22",
+      "lote": "2606F13",
+      "metros": 2075.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-22",
+      "lote": "2606M09",
+      "metros": 4400.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X10",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-22",
+      "lote": "2606M08",
+      "metros": 1650.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "MARLON T, DIEGO Z"
+    },
+    {
+      "date": "2026-06-22",
+      "lote": "26060.0",
+      "metros": 0.0,
+      "producto": "EXTENSIONES GEMELO",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JESSICA V"
+    },
+    {
+      "date": "2026-06-22",
+      "lote": "2606G01",
+      "metros": 18000.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-22",
+      "lote": "2606G02",
+      "metros": 14500.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z, FREDDY CH"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606G01",
+      "metros": 12375.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606G01",
+      "metros": 13000.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JESSICA V, FREDDY CH"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606G01",
+      "metros": 17500.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JESSICA V, FREDDY CH"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606G05",
+      "metros": 9000.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X10",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606G05",
+      "metros": 3075.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X10",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606G02",
+      "metros": 6500.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F15",
+      "metros": 3150.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 6.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F02",
+      "metros": 2500.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F13",
+      "metros": 2225.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F13",
+      "metros": 375.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F13",
+      "metros": 400.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F11",
+      "metros": 2875.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F13",
+      "metros": 200.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F13",
+      "metros": 200.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F13",
+      "metros": 75.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F11",
+      "metros": 225.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F11",
+      "metros": 175.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F11",
+      "metros": 175.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F11",
+      "metros": 225.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F10",
+      "metros": 400.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 16.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F05",
+      "metros": 50.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606F08",
+      "metros": 550.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606G03",
+      "metros": 125.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-23",
+      "lote": "2606M10",
+      "metros": 4075.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X10",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, DIEGO Z"
+    },
+    {
+      "date": "2026-06-24",
+      "lote": "2606G05",
+      "metros": 13200.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X10",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P, DIEGO Z"
+    },
+    {
+      "date": "2026-06-24",
+      "lote": "2606G05",
+      "metros": 3225.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X10",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-24",
+      "lote": "2606G01",
+      "metros": 1150.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-24",
+      "lote": "2606G02",
+      "metros": 225.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-24",
+      "lote": "2606G06",
+      "metros": 14000.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X18",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-24",
+      "lote": "2606F15",
+      "metros": 3025.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 6.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-24",
+      "lote": "2606F02",
+      "metros": 3175.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-24",
+      "lote": "2606F02",
+      "metros": 4250.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "BRYAN P, DIEGO Z"
+    },
+    {
+      "date": "2026-06-24",
+      "lote": "2606F02",
+      "metros": 1725.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, MARLON T"
+    },
+    {
+      "date": "2026-06-24",
+      "lote": "2606M13",
+      "metros": 2500.0,
+      "producto": "MULTICONDUCTOR TC",
+      "calibre": "2X16",
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-24",
+      "lote": "2606M08",
+      "metros": 475.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X14",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-24",
+      "lote": "2606M05",
+      "metros": 450.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X12",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-24",
+      "lote": "2606M07",
+      "metros": 1275.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "2X14",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-24",
+      "lote": "2606M10",
+      "metros": 5775.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X10",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z, JUAN DIEGO S, JESSICA V"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606G02",
+      "metros": 20000.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JESSICA V, FREDDY CH"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606G02",
+      "metros": 10675.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606G02",
+      "metros": 16500.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JESSICA V, FREDDY CH"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606G01",
+      "metros": 7725.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606G06",
+      "metros": 18175.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X18",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P, DIEGO Z"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606M13",
+      "metros": 7000.0,
+      "producto": "MULTICONDUCTOR TC",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JESSICA V, FREDDY CH"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606G05",
+      "metros": 25.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X10",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606F12",
+      "metros": 200.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606F12",
+      "metros": 175.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606F02",
+      "metros": 75.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606F09",
+      "metros": 225.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606F11",
+      "metros": 100.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606F14",
+      "metros": 350.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606F14",
+      "metros": 50.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606F14",
+      "metros": 50.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 8.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606F15",
+      "metros": 50.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 6.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606F06",
+      "metros": 350.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606F06",
+      "metros": 300.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606F06",
+      "metros": 300.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-25",
+      "lote": "2606F07",
+      "metros": 125.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 16.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-26",
+      "lote": "2606G02",
+      "metros": 0.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-06-26",
+      "lote": "2606G02",
+      "metros": 21125.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P, DIEGO Z"
+    },
+    {
+      "date": "2026-06-26",
+      "lote": "2606G06",
+      "metros": 17750.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X18",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-26",
+      "lote": "2606G05",
+      "metros": 4550.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X10",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-26",
+      "lote": "2606F13",
+      "metros": 0.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P, FREDDY CH"
+    },
+    {
+      "date": "2026-06-26",
+      "lote": "2606M05",
+      "metros": 5400.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-26",
+      "lote": "2606M05",
+      "metros": 4000.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "MARLON T, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-26",
+      "lote": "2606M11",
+      "metros": 2900.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X8",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, DIEGO Z"
+    },
+    {
+      "date": "2026-06-26",
+      "lote": "2606G01",
+      "metros": 360.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "MARLON T"
+    },
+    {
+      "date": "2026-06-26",
+      "lote": "2606G06",
+      "metros": 26500.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X18",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, JUAN DIEGO S, JESSICA V"
+    },
+    {
+      "date": "2026-06-29",
+      "lote": "2606G04",
+      "metros": 4300.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X20",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-29",
+      "lote": "2606G04",
+      "metros": 16600.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X20",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-29",
+      "lote": "2606G06",
+      "metros": 20025.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X18",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-29",
+      "lote": "2606G06",
+      "metros": 12500.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X18",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-29",
+      "lote": "2606G06",
+      "metros": 8700.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X18",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JESSICA V, FREDDY CH"
+    },
+    {
+      "date": "2026-06-29",
+      "lote": "2606G05",
+      "metros": 11275.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X10",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P, DIEGO Z"
+    },
+    {
+      "date": "2026-06-29",
+      "lote": "2606G02",
+      "metros": 2375.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-29",
+      "lote": "2606G01",
+      "metros": 225.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-29",
+      "lote": "2606F13",
+      "metros": 3800.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P, FREDDY CH"
+    },
+    {
+      "date": "2026-06-29",
+      "lote": "2606F11",
+      "metros": 23750.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P, DIEGO Z"
+    },
+    {
+      "date": "2026-06-29",
+      "lote": "2606M11",
+      "metros": 1975.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X8",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "DIEGO Z, FREDDY CH"
+    },
+    {
+      "date": "2026-06-29",
+      "lote": "2606F06",
+      "metros": 175.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "BRYAN P"
+    },
+    {
+      "date": "2026-06-30",
+      "lote": "2606G04",
+      "metros": 5975.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X20",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-30",
+      "lote": "2606G04",
+      "metros": 12500.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X20",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "MARLON T, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-30",
+      "lote": "2606G06",
+      "metros": 7675.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X18",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "MARLON T, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-30",
+      "lote": "2606G05",
+      "metros": 2050.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X10",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, MARLON T"
+    },
+    {
+      "date": "2026-06-30",
+      "lote": "2606G02",
+      "metros": 660.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X16",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JESSICA V"
+    },
+    {
+      "date": "2026-06-30",
+      "lote": "2606M11",
+      "metros": 100.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X8",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    },
+    {
+      "date": "2026-06-30",
+      "lote": "2606M05",
+      "metros": 425.0,
+      "producto": "CONCENTRICO TC",
+      "calibre": "3X12",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "MARLON T, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-30",
+      "lote": "2606F11",
+      "metros": 12625.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "MARLON T, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-06-30",
+      "lote": "2606F11",
+      "metros": 9075.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-06-30",
+      "lote": "2606H01",
+      "metros": 11300.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606F05",
+      "metros": 15000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JESSICA V, FREDDY CH"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606H01",
+      "metros": 9500.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606H01",
+      "metros": 9925.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606H01",
+      "metros": 10700.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "MARLON T, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606H01",
+      "metros": 9100.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "MARLON T, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606F13",
+      "metros": 1800.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 10.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606F06",
+      "metros": 600.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S, JESSICA V"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606F07",
+      "metros": 1925.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 16.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606F07",
+      "metros": 1000.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 16.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606F09",
+      "metros": 1300.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606F09",
+      "metros": 250.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606F06",
+      "metros": 2600.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JUAN DIEGO S, JESSICA V"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606F05",
+      "metros": 1125.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JUAN DIEGO S, JESSICA V"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606F11",
+      "metros": 2150.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JESSICA V, FREDDY CH"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606F11",
+      "metros": 2775.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JESSICA V, FREDDY CH"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606F11",
+      "metros": 100.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JESSICA V"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606F14",
+      "metros": 900.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 8.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606G05",
+      "metros": 950.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X10",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "MARLON T, FREDDY CH"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606G04",
+      "metros": 150.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X20",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "MARLON T, FREDDY CH"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606G06",
+      "metros": 400.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X18",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "MARLON T, FREDDY CH"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606H01",
+      "metros": 2500.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "N",
+      "pais": "COLOMBIA",
+      "operador": "JESSICA V, FREDDY CH"
+    },
+    {
+      "date": "2026-07-01",
+      "lote": "2606H01",
+      "metros": 2500.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "JESSICA V, FREDDY CH"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "N/A",
+      "metros": 18200.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 18.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "MARLON T, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "N/A",
+      "metros": 15500.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 18.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "N/A",
+      "metros": 11700.0,
+      "producto": "FLEXIBLE TFF",
+      "calibre": 18.0,
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "N/A",
+      "metros": 12900.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "N",
+      "pais": "ECUADOR",
+      "operador": "JOEL S, BRYAN P"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "N/A",
+      "metros": 11225.0,
+      "producto": "GEMELO SPT",
+      "calibre": "2X14",
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "MARLON T, JUAN DIEGO S"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "2606H01",
+      "metros": 6925.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "MARLON T"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "2606H01",
+      "metros": 1900.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "MARLON T"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "N/A",
+      "metros": 3000.0,
+      "producto": "MULTICONDUCTOR TC",
+      "calibre": "2X12",
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "LUIS S, JUAN T"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "2606H01",
+      "metros": 575.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "MARLON T"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "2606H01",
+      "metros": 650.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "MARLON T"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "2606H01",
+      "metros": 325.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "MARLON T"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "2606H01",
+      "metros": 600.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "MARLON T"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "2606F05",
+      "metros": 375.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "MARLON T"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "N/A",
+      "metros": 6000.0,
+      "producto": "CABLE THHW 7H",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JUAN DIEGO S, FREDDY CH"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "2606H01",
+      "metros": 1500.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JUAN DIEGO S, FREDDY CH"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "2606H01",
+      "metros": 3000.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JUAN DIEGO S, FREDDY CH"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "2606H01",
+      "metros": 2500.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JUAN DIEGO S, FREDDY CH"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "2606H01",
+      "metros": 3000.0,
+      "producto": "HALOGENO HFFR",
+      "calibre": 14.0,
+      "turno": "M",
+      "pais": "COLOMBIA",
+      "operador": "JUAN DIEGO S, FREDDY CH"
+    },
+    {
+      "date": "2026-07-02",
+      "lote": "2606F06",
+      "metros": 500.0,
+      "producto": "FLEXIBLE THHW PLUS",
+      "calibre": 12.0,
+      "turno": "M",
+      "pais": "ECUADOR",
+      "operador": "LUIS S"
+    }
+  ]
+}

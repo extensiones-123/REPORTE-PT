@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reporte Semanal de Ingreso Producto Terminado</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0f0b16;
+      --surface: #17111f;
+      --surface-soft: #201827;
+      --text: #f2eaf7;
+      --muted: #b6a9c4;
+      --border: #34293f;
+      --primary: #8b5cf6;
+      --primary-dark: #6d28d9;
+      --accent: #ec4899;
+      --accent-2: #f59e0b;
+    }
+    * { box-sizing: border-box; }
+    body { font-family: "Segoe UI", Arial, sans-serif; margin: 0; background: radial-gradient(circle at top left, #241732 0%, #120d1a 45%, #08060d 100%); color: var(--text); }
+    .container { max-width: 1200px; margin: 0 auto; padding: 24px; }
+    .card {
+      background: linear-gradient(145deg, rgba(23, 17, 31, 0.97), rgba(32, 24, 39, 0.95));
+      border: 1px solid rgba(131, 92, 246, 0.18);
+      border-radius: 20px;
+      padding: 22px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+      margin-bottom: 20px;
+    }
+    .hero {
+      background: linear-gradient(120deg, rgba(139, 92, 246, 0.16), rgba(236, 72, 153, 0.12) 50%, rgba(245, 158, 11, 0.08) 100%);
+      border: 1px solid rgba(139, 92, 246, 0.28);
+    }
+    .hero-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: rgba(139, 92, 246, 0.14);
+      color: var(--primary-dark);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3 { margin-top: 0; margin-bottom: 8px; }
+    h1 { font-size: 28px; color: #f8ebff; }
+    h2 { font-size: 20px; color: #e7d7f7; }
+    .controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; align-items: end; margin-top: 16px; }
+    label { display: flex; flex-direction: column; font-size: 14px; font-weight: 600; gap: 6px; color: var(--muted); }
+    input, select { padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); font-size: 14px; background: #1e1728; color: var(--text); }
+    button { padding: 10px 16px; border: none; border-radius: 999px; background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%); color: white; font-weight: 700; cursor: pointer; box-shadow: 0 6px 18px rgba(155, 184, 208, 0.25); }
+    button:hover { filter: brightness(1.04); }
+    .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+    .summary .box {
+      background: linear-gradient(135deg, rgba(139, 92, 246, 0.16), rgba(236, 72, 153, 0.12));
+      border: 1px solid rgba(236, 72, 153, 0.16);
+      border-radius: 14px;
+      padding: 16px;
+    }
+    .summary .box strong { display: block; font-size: 22px; margin-top: 8px; color: #f8eaff; }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 14px; }
+    .file-pill {
+      font-size: 13px;
+      color: var(--muted);
+      background: rgba(23, 17, 31, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 8px 12px;
+    }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    th, td { padding: 10px 12px; border-bottom: 1px solid #2c2238; text-align: left; }
+    th { background: rgba(32, 24, 39, 0.95); color: #f0dffa; }
+    .muted { color: var(--muted); font-size: 13px; }
+    .empty { color: var(--muted); font-style: italic; }
+    .section-toggle { display: flex; justify-content: space-between; align-items: center; cursor: pointer; font-weight: 700; }
+    .section-toggle span { font-size: 18px; color: #f5b2db; }
+    .section-content { display: block; margin-top: 10px; }
+    .section-content.collapsed { display: none; }
+    .chart-wrap {
+      margin-top: 14px;
+      padding: 14px;
+      border: 1px solid rgba(139, 92, 246, 0.2);
+      border-radius: 14px;
+      background: linear-gradient(180deg, rgba(32, 24, 39, 0.95), rgba(23, 17, 31, 0.97));
+    }
+    canvas { width: 100%; height: 220px; }
+    @media print {
+      body { background: #f7f2fb; color: #2d2437; }
+      .card { box-shadow: none; border: 1px solid #d8c9e8; background: white; }
+      .controls, .actions, button, input, select { display: none !important; }
+      .container { max-width: none; padding: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card hero">
+      <div class="hero-head">
+        <div>
+          <div class="hero-badge">● Informe semanal</div>
+          <h1>REPORTE SEMANAL DE INGRESO PRODUCTO TERMINADO</h1>
+          <p class="muted">Resumen ejecutivo de metros ingresados por día, lote y operador, con visualización integrada para presentación gerencial.</p>
+        </div>
+      </div>
+      <div class="controls">
+        <label>Fecha inicial<input id="startDate" type="date" /></label>
+        <label>Fecha final<input id="endDate" type="date" /></label>
+        <label>Lote<select id="loteFilter"><option value="">Todos los lotes</option></select></label>
+        <label>Operador<select id="operadorFilter"><option value="">Todos los operadores</option></select></label>
+        <button onclick="applyFilters()">Aplicar filtros</button>
+      </div>
+      <div class="actions">
+        <input id="fileInput" type="file" accept=".xlsx,.xls,.csv" style="display:none" onchange="handleFileUpload(event)" />
+        <button type="button" onclick="document.getElementById('fileInput').click()">Cargar documento</button>
+        <button type="button" onclick="window.print()">Imprimir</button>
+        <button type="button" onclick="window.print()">Exportar como PDF</button>
+        <span id="fileName" class="file-pill">Archivo actual: JUNIO26.xlsx</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Resumen</h2>
+      <div class="summary">
+        <div class="box">Total metros filtrados<strong id="totalMetros">0</strong></div>
+        <div class="box">Días incluidos<strong id="totalDays">0</strong></div>
+        <div class="box">Lotes incluidos<strong id="totalLots">0</strong></div>
+        <div class="box">Operadores incluidos<strong id="totalOperators">0</strong></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="section-toggle" onclick="toggleSection('dailySection')">
+        <h2>Metros por día</h2>
+        <span id="dailySectionIcon">▾</span>
+      </div>
+      <div id="dailySection" class="section-content">
+        <table>
+          <thead><tr><th>Fecha</th><th>Metros</th></tr></thead>
+          <tbody id="dailyTableBody"></tbody>
+        </table>
+        <div id="dailyChartWrap" class="chart-wrap"><canvas id="dailyChart"></canvas></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="section-toggle" onclick="toggleSection('lotSection')">
+        <h2>Metros por lote</h2>
+        <span id="lotSectionIcon">▾</span>
+      </div>
+      <div id="lotSection" class="section-content">
+        <table>
+          <thead><tr><th>Lote</th><th>Descripción</th><th>Metros</th><th>Registros</th></tr></thead>
+          <tbody id="lotTableBody"></tbody>
+        </table>
+        <div id="lotChartWrap" class="chart-wrap"><canvas id="lotChart"></canvas></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="section-toggle" onclick="toggleSection('operatorSection')">
+        <h2>Metros por operador</h2>
+        <span id="operatorSectionIcon">▾</span>
+      </div>
+      <div id="operatorSection" class="section-content">
+        <table>
+          <thead><tr><th>Operador</th><th>Metros</th></tr></thead>
+          <tbody id="operatorTableBody"></tbody>
+        </table>
+        <div id="operatorChartWrap" class="chart-wrap"><canvas id="operatorChart"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.1/dist/xlsx.full.min.js"></script>
+  <script>
+    let data = null;
+
+    async function loadData() {
+      const response = await fetch('./data.json');
+      data = await response.json();
+      populateFilters();
+      applyFilters();
+    }
+
+    function normalizeDate(value) {
+      if (value instanceof Date) {
+        return value.toISOString().slice(0, 10);
+      }
+      if (typeof value === 'number') {
+        const date = XLSX.SSF.parse_date_code(value);
+        if (date) {
+          return `${date.y}-${String(date.m).padStart(2, '0')}-${String(date.d).padStart(2, '0')}`;
+        }
+      }
+      const text = String(value ?? '').trim();
+      if (/^\d{4}-\d{2}-\d{2}/.test(text)) {
+        return text.slice(0, 10);
+      }
+      return text;
+    }
+
+    function buildReportFromWorkbook(workbook) {
+      let selectedSheet = null;
+      let rows = null;
+      let headerIndex = -1;
+
+      for (const sheetName of workbook.SheetNames) {
+        const sheet = workbook.Sheets[sheetName];
+        const sheetRows = XLSX.utils.sheet_to_json(sheet, { header: 1, raw: false, defval: '' });
+        const index = sheetRows.findIndex(row => Array.isArray(row) && row.some(value => value === 'Timestamp'));
+        if (index >= 0) {
+          selectedSheet = sheetName;
+          rows = sheetRows;
+          headerIndex = index;
+          break;
+        }
+      }
+
+      if (!rows || headerIndex < 0) {
+        throw new Error('No se encontró una hoja con la estructura esperada.');
+      }
+
+      const headers = rows[headerIndex].map(value => String(value ?? '').trim());
+      const records = [];
+      const dailyMap = {};
+      const lotMap = {};
+
+      for (let i = headerIndex + 1; i < rows.length; i += 1) {
+        const row = rows[i];
+        if (!Array.isArray(row) || row.every(value => value === '' || value === null || value === undefined)) {
+          continue;
+        }
+
+        const record = {};
+        headers.forEach((header, index) => {
+          record[header] = row[index];
+        });
+
+        const date = normalizeDate(record.FECHA);
+        if (!date) continue;
+
+        const metros = Number(record.METROS || 0);
+        const lote = record.LOTE ? String(record.LOTE).trim() : 'SIN LOTE';
+
+        records.push({
+          date,
+          lote,
+          metros: Number.isFinite(metros) ? metros : 0,
+          producto: record.PRODUCTO ? String(record.PRODUCTO) : '',
+          calibre: record.CALIBRE ? String(record.CALIBRE) : '',
+          turno: record.TURNO ? String(record.TURNO) : '',
+          pais: record['PAIS [X]'] ? String(record['PAIS [X]']) : '',
+          operador: record.OPERADOR ? String(record.OPERADOR) : ''
+        });
+
+        dailyMap[date] = (dailyMap[date] || 0) + (Number.isFinite(metros) ? metros : 0);
+        lotMap[lote] = (lotMap[lote] || 0) + (Number.isFinite(metros) ? metros : 0);
+      }
+
+      const dailyTotals = Object.entries(dailyMap)
+        .sort(([a], [b]) => a.localeCompare(b))
+        .map(([date, metros]) => ({ date, metros }));
+
+      const lotTotals = Object.entries(lotMap)
+        .sort((a, b) => b[1] - a[1])
+        .map(([lote, metros]) => ({ lote, metros, registros: records.filter(record => record.lote === lote).length }));
+
+      return {
+        sheet: selectedSheet,
+        generated_at: new Date().toISOString(),
+        date_range: {
+          start: records.length ? records[0].date : '',
+          end: records.length ? records[records.length - 1].date : ''
+        },
+        daily_totals: dailyTotals,
+        lot_totals: lotTotals,
+        records
+      };
+    }
+
+    async function handleFileUpload(event) {
+      const file = event.target.files?.[0];
+      if (!file) return;
+
+      try {
+        const arrayBuffer = await file.arrayBuffer();
+        const workbook = XLSX.read(arrayBuffer, { type: 'array' });
+        data = buildReportFromWorkbook(workbook);
+        document.getElementById('fileName').textContent = `Archivo actual: ${file.name}`;
+        populateFilters();
+        applyFilters();
+      } catch (error) {
+        alert(`No se pudo procesar el archivo: ${error.message}`);
+      }
+    }
+
+    function normalizeOperatorName(value) {
+      const mapping = {
+        'LUIS S': 'LUIS S',
+        'LUIS': 'LUIS S',
+        'FREDY CH': 'FREDY CH',
+        'FREDDY CH': 'FREDY CH',
+        'JOEL S': 'JOEL S',
+        'JOEL': 'JOEL S',
+        'JESSICA V': 'JESSICA V',
+        'JESSIC V': 'JESSICA V',
+        'DIEGO Z': 'DIEGO Z',
+        'JUAN DIEGO S': 'JUAN DIEGO S',
+        'JUAN T': 'JUAN T',
+        'BRYAN P': 'BYRON P',
+        'BURON P': 'BYRON P',
+        'BYRON P': 'BYRON P',
+        'MARLON T': 'MARLON T'
+      };
+      const normalized = String(value || '').trim().toUpperCase();
+      const direct = Object.keys(mapping).find(key => key.toUpperCase() === normalized);
+      return direct ? mapping[direct] : (value ? String(value).trim() : 'SIN OPERADOR');
+    }
+
+    function getOperators(value) {
+      if (!value) return ['SIN OPERADOR'];
+      return String(value)
+        .split(',')
+        .map(item => item.trim())
+        .filter(Boolean)
+        .map(item => normalizeOperatorName(item));
+    }
+
+    function getLotDescription(lote, records) {
+      const lotRecords = records.filter(record => record.lote === lote);
+      if (!lotRecords.length) {
+        return lote;
+      }
+
+      const descriptions = {};
+      lotRecords.forEach(record => {
+        const description = [record.producto, record.calibre, record.color]
+          .filter(Boolean)
+          .join(' / ');
+        descriptions[description] = (descriptions[description] || 0) + 1;
+      });
+
+      const best = Object.entries(descriptions).sort((a, b) => b[1] - a[1])[0];
+      return best ? best[0] : lote;
+    }
+
+    function populateFilters() {
+      const loteSelect = document.getElementById('loteFilter');
+      const lotes = [...new Set(data.lot_totals.map(item => item.lote))];
+      loteSelect.innerHTML = '<option value="">Todos los lotes</option>' + lotes.map(lote => `<option value="${lote}">${lote}</option>`).join('');
+
+      const operadorSelect = document.getElementById('operadorFilter');
+      const operadores = [...new Set(data.records.flatMap(record => getOperators(record.operador)))].sort();
+      operadorSelect.innerHTML = '<option value="">Todos los operadores</option>' + operadores.map(operador => `<option value="${operador}">${operador}</option>`).join('');
+
+      const startDate = document.getElementById('startDate');
+      const endDate = document.getElementById('endDate');
+      startDate.value = data.date_range.start || '';
+      endDate.value = data.date_range.end || '';
+    }
+
+    function applyFilters() {
+      const startDate = document.getElementById('startDate').value;
+      const endDate = document.getElementById('endDate').value;
+      const loteFilter = document.getElementById('loteFilter').value;
+      const operadorFilter = document.getElementById('operadorFilter').value;
+
+      const filteredRecords = data.records.filter(record => {
+        const inRange = (!startDate || record.date >= startDate) && (!endDate || record.date <= endDate);
+        const inLote = !loteFilter || record.lote === loteFilter;
+        const inOperador = !operadorFilter || getOperators(record.operador).includes(operadorFilter);
+        return inRange && inLote && inOperador;
+      });
+
+      const dailyMap = {};
+      const lotMap = {};
+      const operatorMap = {};
+
+      filteredRecords.forEach(record => {
+        dailyMap[record.date] = (dailyMap[record.date] || 0) + record.metros;
+        lotMap[record.lote] = (lotMap[record.lote] || 0) + record.metros;
+        getOperators(record.operador).forEach(operador => {
+          operatorMap[operador] = (operatorMap[operador] || 0) + record.metros;
+        });
+      });
+
+      const dailyRows = Object.entries(dailyMap).sort(([a], [b]) => a.localeCompare(b)).map(([date, metros]) => ({ date, metros }));
+      const lotRows = Object.entries(lotMap)
+        .sort((a, b) => b[1] - a[1])
+        .map(([lote, metros]) => ({
+          lote,
+          descripcion: getLotDescription(lote, filteredRecords),
+          metros,
+          registros: filteredRecords.filter(record => record.lote === lote).length
+        }));
+      const operatorRows = Object.entries(operatorMap)
+        .sort((a, b) => b[1] - a[1])
+        .map(([operador, metros]) => ({ operador, metros }));
+
+      renderTable('dailyTableBody', dailyRows, 'date', 'metros');
+      renderTable('lotTableBody', lotRows, 'lote', 'metros', 'registros', 'descripcion');
+      renderTable('operatorTableBody', operatorRows, 'operador', 'metros');
+      renderCharts(dailyRows, lotRows, operatorRows);
+
+      document.getElementById('totalMetros').textContent = filteredRecords.reduce((sum, item) => sum + item.metros, 0).toLocaleString('es-ES', { maximumFractionDigits: 2 });
+      document.getElementById('totalDays').textContent = dailyRows.length;
+      document.getElementById('totalLots').textContent = lotRows.length;
+      document.getElementById('totalOperators').textContent = operatorRows.length;
+    }
+
+    function renderTable(tbodyId, rows, labelKey, valueKey, countKey, descriptionKey) {
+      const tbody = document.getElementById(tbodyId);
+      tbody.innerHTML = '';
+      if (!rows.length) {
+        const colspan = tbodyId === 'lotTableBody' ? 4 : 2;
+        tbody.innerHTML = `<tr><td colspan="${colspan}" class="empty">No hay resultados para el filtro seleccionado.</td></tr>`;
+        return;
+      }
+      tbody.innerHTML = rows.map(row => {
+        const value = Number(row[valueKey]).toLocaleString('es-ES', { maximumFractionDigits: 2 });
+        if (tbodyId === 'lotTableBody') {
+          return `<tr><td>${row[labelKey]}</td><td>${row[descriptionKey] || ''}</td><td>${value}</td><td>${row[countKey]}</td></tr>`;
+        }
+        return `<tr><td>${row[labelKey]}</td><td>${value}</td></tr>`;
+      }).join('');
+    }
+
+    function toggleSection(sectionId) {
+      const content = document.getElementById(sectionId);
+      const icon = document.getElementById(`${sectionId}Icon`);
+      if (!content || !icon) return;
+      content.classList.toggle('collapsed');
+      icon.textContent = content.classList.contains('collapsed') ? '▶' : '▾';
+    }
+
+    function drawChart(canvasId, labels, values, label) {
+      const canvas = document.getElementById(canvasId);
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      const width = canvas.width = canvas.clientWidth || 360;
+      const height = canvas.height = 220;
+      ctx.clearRect(0, 0, width, height);
+      ctx.strokeStyle = '#4b3263';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      for (let i = 0; i <= 4; i += 1) {
+        const y = 20 + i * 45;
+        ctx.moveTo(40, y);
+        ctx.lineTo(width - 20, y);
+      }
+      ctx.stroke();
+
+      const maxValue = Math.max(...values, 1);
+      const padding = 40;
+      const chartWidth = width - padding * 2;
+      const chartHeight = height - 40;
+      ctx.beginPath();
+      values.forEach((value, index) => {
+        const x = padding + (index / Math.max(1, values.length - 1)) * chartWidth;
+        const y = height - 20 - (value / maxValue) * chartHeight;
+        if (index === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+      });
+      ctx.strokeStyle = '#c084fc';
+      ctx.lineWidth = 2.5;
+      ctx.stroke();
+
+      ctx.fillStyle = '#ec4899';
+      values.forEach((value, index) => {
+        const x = padding + (index / Math.max(1, values.length - 1)) * chartWidth;
+        const y = height - 20 - (value / maxValue) * chartHeight;
+        ctx.beginPath();
+        ctx.arc(x, y, 3.5, 0, Math.PI * 2);
+        ctx.fill();
+      });
+
+      ctx.fillStyle = '#d8b4fe';
+      ctx.font = '12px Arial';
+      labels.forEach((text, index) => {
+        const x = padding + (index / Math.max(1, labels.length - 1)) * chartWidth;
+        ctx.fillText(String(text).slice(0, 12), x - 12, height - 4);
+      });
+
+      ctx.fillText(label, 10, 14);
+    }
+
+    function renderCharts(dailyRows, lotRows, operatorRows) {
+      drawChart('dailyChart', dailyRows.map(item => item.date), dailyRows.map(item => item.metros), 'Metros por día');
+      drawChart('lotChart', lotRows.map(item => item.lote), lotRows.map(item => item.metros), 'Metros por lote');
+      drawChart('operatorChart', operatorRows.map(item => item.operador), operatorRows.map(item => item.metros), 'Metros por operador');
+    }
+
+    loadData();
+  </script>
+</body>
+</html>
