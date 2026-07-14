@@ -246,7 +246,9 @@
 
         const metros = Number(record.METROS || 0);
         const loteRaw = record.LOTE ? String(record.LOTE).trim() : '';
-        const lote = loteRaw && loteRaw.toUpperCase() !== 'N/A' ? loteRaw : 'SIN LOTE';
+        const loteNormalized = loteRaw && String(loteRaw).trim().toUpperCase();
+        const shouldExcludeLote = loteNormalized === 'N/A' || loteNormalized === '20060.0' || loteNormalized === '20060';
+        const lote = !shouldExcludeLote && loteRaw ? loteRaw : 'SIN LOTE';
 
         records.push({
           date,
@@ -260,7 +262,7 @@
         });
 
         dailyMap[date] = (dailyMap[date] || 0) + (Number.isFinite(metros) ? metros : 0);
-        if (loteRaw && loteRaw.toUpperCase() !== 'N/A') {
+        if (!shouldExcludeLote) {
           lotMap[lote] = (lotMap[lote] || 0) + (Number.isFinite(metros) ? metros : 0);
         }
       }
@@ -354,7 +356,11 @@
 
     function populateFilters() {
       const loteSelect = document.getElementById('loteFilter');
-      const lotes = [...new Set(data.lot_totals.map(item => item.lote).filter(lote => lote && String(lote).trim().toUpperCase() !== 'N/A' && String(lote).trim() !== 'SIN LOTE'))];
+      const lotes = [...new Set(data.lot_totals.map(item => item.lote).filter(lote => {
+        const value = String(lote ?? '').trim();
+        const normalized = value.toUpperCase();
+        return value && normalized !== 'N/A' && normalized !== '20060.0' && normalized !== '20060' && normalized !== 'SIN LOTE';
+      }))];
       loteSelect.innerHTML = '<option value="">Todos los lotes</option>' + lotes.map(lote => `<option value="${lote}">${lote}</option>`).join('');
 
       const operadorSelect = document.getElementById('operadorFilter');
@@ -374,10 +380,13 @@
       const operadorFilter = document.getElementById('operadorFilter').value;
 
       const filteredRecords = data.records.filter(record => {
+        const loteValue = String(record.lote ?? '').trim();
+        const loteNormalized = loteValue.toUpperCase();
+        const isExcludedLote = loteNormalized === 'N/A' || loteNormalized === '20060.0' || loteNormalized === '20060' || loteNormalized === 'SIN LOTE';
         const inRange = (!startDate || record.date >= startDate) && (!endDate || record.date <= endDate);
         const inLote = !loteFilter || record.lote === loteFilter;
         const inOperador = !operadorFilter || getOperators(record.operador).includes(operadorFilter);
-        return inRange && inLote && inOperador && record.lote !== 'SIN LOTE';
+        return inRange && inLote && inOperador && !isExcludedLote;
       });
 
       const dailyMap = {};
@@ -386,7 +395,12 @@
 
       filteredRecords.forEach(record => {
         dailyMap[record.date] = (dailyMap[record.date] || 0) + record.metros;
-        lotMap[record.lote] = (lotMap[record.lote] || 0) + record.metros;
+        const loteValue = String(record.lote ?? '').trim();
+        const loteNormalized = loteValue.toUpperCase();
+        const isExcludedLote = loteNormalized === 'N/A' || loteNormalized === '20060.0' || loteNormalized === '20060' || loteNormalized === 'SIN LOTE';
+        if (!isExcludedLote) {
+          lotMap[record.lote] = (lotMap[record.lote] || 0) + record.metros;
+        }
         getOperators(record.operador).forEach(operador => {
           operatorMap[operador] = (operatorMap[operador] || 0) + record.metros;
         });
