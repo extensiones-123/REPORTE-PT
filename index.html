@@ -209,10 +209,15 @@
       let rows = null;
       let headerIndex = -1;
 
+      const headerHints = ['fecha', 'date', 'timestamp', 'time'];
+
       for (const sheetName of workbook.SheetNames) {
         const sheet = workbook.Sheets[sheetName];
         const sheetRows = XLSX.utils.sheet_to_json(sheet, { header: 1, raw: false, defval: '' });
-        const index = sheetRows.findIndex(row => Array.isArray(row) && row.some(value => value === 'Timestamp'));
+        const index = sheetRows.findIndex(row => Array.isArray(row) && row.some(cell => {
+          const text = String(cell ?? '').toLowerCase();
+          return headerHints.some(h => text.includes(h));
+        }));
         if (index >= 0) {
           selectedSheet = sheetName;
           rows = sheetRows;
@@ -222,10 +227,34 @@
       }
 
       if (!rows || headerIndex < 0) {
-        throw new Error('No se encontró una hoja con la estructura esperada.');
+        // try first sheet as fallback
+        const sheet = workbook.Sheets[workbook.SheetNames[0]];
+        rows = XLSX.utils.sheet_to_json(sheet, { header: 1, raw: false, defval: '' });
+        headerIndex = 0;
+        selectedSheet = workbook.SheetNames[0];
       }
 
-      const headers = rows[headerIndex].map(value => String(value ?? '').trim());
+      const rawHeaders = (rows[headerIndex] || []).map(value => String(value ?? '').trim());
+      const headersLower = rawHeaders.map(h => h.toLowerCase());
+
+      function findHeaderIndex(candidates) {
+        for (const c of candidates) {
+          const i = headersLower.findIndex(h => h === c || h.includes(c));
+          if (i >= 0) return i;
+        }
+        return -1;
+      }
+
+      const dateIdx = findHeaderIndex(['fecha', 'date', 'timestamp', 'time']);
+      const metrosIdx = findHeaderIndex(['metros', 'mtrs', 'metres', 'cantidad', 'length', 'meter']);
+      const loteIdx = findHeaderIndex(['lote', 'lot', 'batch']);
+      const operadorIdx = findHeaderIndex(['operador', 'operator', 'operario', 'responsable']);
+      const productoIdx = findHeaderIndex(['producto', 'product']);
+      const calibreIdx = findHeaderIndex(['calibre', 'gauge']);
+      const turnoIdx = findHeaderIndex(['turno', 'shift']);
+      const paisIdx = findHeaderIndex(['pais', 'country']);
+      const colorIdx = findHeaderIndex(['color']);
+
       const records = [];
       const dailyMap = {};
       const lotMap = {};
@@ -236,34 +265,40 @@
           continue;
         }
 
-        const record = {};
-        headers.forEach((header, index) => {
-          record[header] = row[index];
-        });
-
-        const date = normalizeDate(record.FECHA);
+        const rawDate = dateIdx >= 0 ? row[dateIdx] : (row[0] || '');
+        const date = normalizeDate(rawDate);
         if (!date) continue;
 
-        const metros = Number(record.METROS || 0);
-        const loteRaw = record.LOTE ? String(record.LOTE).trim() : '';
-        const loteNormalized = loteRaw && String(loteRaw).trim().toUpperCase();
+        const metrosRaw = metrosIdx >= 0 ? row[metrosIdx] : 0;
+        const metros = Number(String(metrosRaw || 0).toString().replace(/[^0-9\.-]+/g, '')) || 0;
+
+        const loteRaw = loteIdx >= 0 ? String(row[loteIdx] ?? '').trim() : '';
+        const loteNormalized = loteRaw ? loteRaw.toUpperCase() : '';
         const shouldExcludeLote = loteNormalized === 'N/A' || loteNormalized === '20060.0' || loteNormalized === '20060';
         const lote = !shouldExcludeLote && loteRaw ? loteRaw : 'SIN LOTE';
+
+        const producto = productoIdx >= 0 ? String(row[productoIdx] ?? '') : '';
+        const calibre = calibreIdx >= 0 ? String(row[calibreIdx] ?? '') : '';
+        const turno = turnoIdx >= 0 ? String(row[turnoIdx] ?? '') : '';
+        const pais = paisIdx >= 0 ? String(row[paisIdx] ?? '') : '';
+        const operador = operadorIdx >= 0 ? String(row[operadorIdx] ?? '') : '';
+        const color = colorIdx >= 0 ? String(row[colorIdx] ?? '') : '';
 
         records.push({
           date,
           lote,
-          metros: Number.isFinite(metros) ? metros : 0,
-          producto: record.PRODUCTO ? String(record.PRODUCTO) : '',
-          calibre: record.CALIBRE ? String(record.CALIBRE) : '',
-          turno: record.TURNO ? String(record.TURNO) : '',
-          pais: record['PAIS [X]'] ? String(record['PAIS [X]']) : '',
-          operador: record.OPERADOR ? String(record.OPERADOR) : ''
+          metros: metros,
+          producto,
+          calibre,
+          turno,
+          pais,
+          operador,
+          color
         });
 
-        dailyMap[date] = (dailyMap[date] || 0) + (Number.isFinite(metros) ? metros : 0);
+        dailyMap[date] = (dailyMap[date] || 0) + metros;
         if (!shouldExcludeLote) {
-          lotMap[lote] = (lotMap[lote] || 0) + (Number.isFinite(metros) ? metros : 0);
+          lotMap[lote] = (lotMap[lote] || 0) + metros;
         }
       }
 
@@ -275,13 +310,13 @@
         .sort((a, b) => b[1] - a[1])
         .map(([lote, metros]) => ({ lote, metros, registros: records.filter(record => record.lote === lote).length }));
 
+      const allDates = records.map(r => r.date).filter(Boolean).sort();
+      const dateRange = { start: allDates.length ? allDates[0] : '', end: allDates.length ? allDates[allDates.length - 1] : '' };
+
       return {
         sheet: selectedSheet,
         generated_at: new Date().toISOString(),
-        date_range: {
-          start: records.length ? records[0].date : '',
-          end: records.length ? records[records.length - 1].date : ''
-        },
+        date_range: dateRange,
         daily_totals: dailyTotals,
         lot_totals: lotTotals,
         records
