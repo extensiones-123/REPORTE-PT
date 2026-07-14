@@ -245,7 +245,8 @@
         if (!date) continue;
 
         const metros = Number(record.METROS || 0);
-        const lote = record.LOTE ? String(record.LOTE).trim() : 'SIN LOTE';
+        const loteRaw = record.LOTE ? String(record.LOTE).trim() : '';
+        const lote = loteRaw && loteRaw.toUpperCase() !== 'N/A' ? loteRaw : 'SIN LOTE';
 
         records.push({
           date,
@@ -259,7 +260,9 @@
         });
 
         dailyMap[date] = (dailyMap[date] || 0) + (Number.isFinite(metros) ? metros : 0);
-        lotMap[lote] = (lotMap[lote] || 0) + (Number.isFinite(metros) ? metros : 0);
+        if (loteRaw && loteRaw.toUpperCase() !== 'N/A') {
+          lotMap[lote] = (lotMap[lote] || 0) + (Number.isFinite(metros) ? metros : 0);
+        }
       }
 
       const dailyTotals = Object.entries(dailyMap)
@@ -351,7 +354,7 @@
 
     function populateFilters() {
       const loteSelect = document.getElementById('loteFilter');
-      const lotes = [...new Set(data.lot_totals.map(item => item.lote))];
+      const lotes = [...new Set(data.lot_totals.map(item => item.lote).filter(lote => lote && String(lote).trim().toUpperCase() !== 'N/A' && String(lote).trim() !== 'SIN LOTE'))];
       loteSelect.innerHTML = '<option value="">Todos los lotes</option>' + lotes.map(lote => `<option value="${lote}">${lote}</option>`).join('');
 
       const operadorSelect = document.getElementById('operadorFilter');
@@ -374,7 +377,7 @@
         const inRange = (!startDate || record.date >= startDate) && (!endDate || record.date <= endDate);
         const inLote = !loteFilter || record.lote === loteFilter;
         const inOperador = !operadorFilter || getOperators(record.operador).includes(operadorFilter);
-        return inRange && inLote && inOperador;
+        return inRange && inLote && inOperador && record.lote !== 'SIN LOTE';
       });
 
       const dailyMap = {};
